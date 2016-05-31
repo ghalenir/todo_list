@@ -1,0 +1,5 @@
+name: Todo List
+type: module
+description: My to do list
+core: 8.x
+package: Custom

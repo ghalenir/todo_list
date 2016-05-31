@@ -1,0 +1,18 @@
+todo_list.todo_list_controller_list_task:
+  path: '/todo_list/list_task/{status}/{page}'
+  defaults:
+    _controller: '\Drupal\todo_list\Controller\TodoListController::listTask'
+    _title: 'Controller Title'
+    status: 'all'
+    page: 1
+  requirements:
+    _permission: 'access content'
+
+todo_list.todo_list_controller_get_task_detail:
+  path: 'todo_list/task/{nid}'
+  defaults:
+    _controller: '\Drupal\todo_list\Controller\TodoListController::getTaskDetail'
+    _title: 'Method Title'
+  requirements:
+    _permission: 'access content'
+

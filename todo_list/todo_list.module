@@ -1,0 +1,23 @@
+<?php
+
+/**
+ * @file
+ * Contains todo_list.module..
+ */
+
+use Drupal\Core\Routing\RouteMatchInterface;
+
+/**
+ * Implements hook_help().
+ */
+function todo_list_help($route_name, RouteMatchInterface $route_match) {
+  switch ($route_name) {
+    // Main module help for the todo_list module.
+    case 'help.page.todo_list':
+      $output = '';
+      $output .= '<h3>' . t('About') . '</h3>';
+      $output .= '<p>' . t('My to do list') . '</p>';
+      return $output;
+    default:
+  }
+}

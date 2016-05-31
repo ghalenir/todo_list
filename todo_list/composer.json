@@ -1,0 +1,14 @@
+{
+  "name": "drupal/todo_list",
+  "type": "drupal-module",
+  "description": "My to do list",
+  "keywords": ["Drupal"],
+  "license": "GPL-2.0+",
+  "homepage": "https://www.drupal.org/project/todo_list",
+  "minimum-stability": "dev",
+  "support": {
+    "issues": "http://drupal.org/project/issues/todo_list",
+    "source": "http://cgit.drupalcode.org/todo_list"
+  },
+  "require": { }
+}

@@ -1,0 +1,9 @@
+<ul>
+{% for value in todo_list_data %}
+    <li>{{ value }}</li>
+{% endfor %}
+</ul>
+<div class="pager">
+    <a href="/{{ next_page }}"> Next >> </a>
+    <a href="/{{ previous_page }}"> Previous << </a>
+</div>
